@@ -26,7 +26,7 @@
 			</div>
 			<div id="game-lower">
 				<canvas id="game-canvas" width="1200" height="900" style="width: 75%" onClick="placeBuilding()"></canvas>
-				<div id="intro-div" onClick="gameStarted=true; canvas.style.display='block'; document.getElementById('intro-div').style.display='none'">
+				<div id="intro-div" onClick="gameStarted=true; canvas.style.display='block'; document.getElementById('intro-div').style.display='none'; lastTime=performance.now();">
 					<span style="display: block; font-size: 30px; text-align: center; width: 75%; user-select: none;">Earth-Year 2354 CE<br>Space colonizers reach a new exoplanet, the perfect place to start a new colony. The planet has one little secret, though. Anyone who ventures near feels unimaginable levels of dysphoria for their assigned gender at birth, thus causing everyone on the planet to be transgender, a Transtopia :3<br>Click anywhere to continue</span>
 				</div>
 			<div id="game-side">
