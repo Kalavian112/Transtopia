@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="building_5.svg"
+   inkscape:export-filename="../buildings/building_5.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.068164"
+     inkscape:cx="48.045012"
+     inkscape:cy="76.359013"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       spacingx="4"
+       spacingy="2"
+       originx="0"
+       originy="0"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Inset"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       style="color-interpolation-filters:sRGB;"
+       id="filter14935"
+       x="-0.76499998"
+       y="-0.67999998"
+       width="2.53"
+       height="2.36">
+      <feMorphology
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         radius="3.6"
+         id="feMorphology14923" />
+      <feGaussianBlur
+         stdDeviation="3.6"
+         in="result1"
+         result="result0"
+         id="feGaussianBlur14925" />
+      <feDiffuseLighting
+         surfaceScale="-5"
+         id="feDiffuseLighting14929">
+        <feDistantLight
+           elevation="45"
+           azimuth="225"
+           id="feDistantLight14927" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result0"
+         operator="in"
+         result="result91"
+         id="feComposite14931" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result91"
+         id="feComposite14933" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2">
+    <path
+       style="fill:#a0a0aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 72,120 24,96 V 36 l 48,24 z"
+       id="path10794"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#9c9ca6;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72,120 32,-16 V 44 L 72,60 Z"
+       id="path12308"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#909096;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 72,56 104,40 56,16 24,32 Z"
+       id="path14773"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#8c8c92;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,32 v 4 l 48,24 v -4 z"
+       id="path16333"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#88888e;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 104,40 v 4 L 72,60 v -4 z"
+       id="path16335"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:16px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;text-anchor:middle;fill:#545454;fill-opacity:1;stroke:none;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+       x="46.850437"
+       y="57.62817"
+       id="text17547"
+       transform="skewY(26.565051)"><tspan
+         sodipodi:role="line"
+         id="tspan17545"
+         x="46.850437"
+         y="57.62817"
+         style="font-size:16px;fill:#141414;fill-opacity:1">CAFE</tspan></text>
+    <path
+       style="fill:#9a9aa4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68,118 v -16 l -8,-4 v 16 z"
+       id="path17757"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#9a9aa4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64,100 v 16"
+       id="path17821" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44,94 8,4 v 4 l -8,-4 z"
+       id="path17823" />
+    <path
+       style="fill:#dce6ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,38 v 2 L 72,64 104,48 V 46 L 72,62 Z"
+       id="path17945"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#ffe1ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,40 v 2 L 72,66 104,50 V 48 L 72,64 Z"
+       id="path18055"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,42 v 2 L 72,68 104,52 V 50 L 72,66 Z"
+       id="path18057"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#ffe1ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,44 v 2 L 72,70 104,54 V 52 L 72,68 Z"
+       id="path18059"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#dce6ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24,46 v 2 L 72,72 104,56 V 54 L 72,70 Z"
+       id="path18061"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28,85.999969 8,4 v 4 l -8,-4 z"
+       id="path18951" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84,102 -8,4 v 4 l 8,-4 z"
+       id="path18955" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100,94 -8,4 v 4 l 8,-4 z"
+       id="path18957" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84,90 -8,4 v 4 l 8,-4 z"
+       id="path18959" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100,82 -8,4 v 4 l 8,-4 z"
+       id="path18961" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84,78 -8,4 v 4 l 8,-4 z"
+       id="path18963" />
+    <path
+       style="fill:#9a9ab4;fill-opacity:1;stroke:#84848c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100,70 -8,4 v 4 l 8,-4 z"
+       id="path18965" />
+    <path
+       style="fill:#8a8a90;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72,48 v -4 l 16,-8 v 4 z"
+       id="path19005"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#8a8a90;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 72,48 V 44 L 40,28 v 4 z"
+       id="path19007"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#94949a;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 72,44 88,36 56,20 40,28 Z"
+       id="path19103"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

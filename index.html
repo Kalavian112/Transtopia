@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Transtopia</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+		<div id="game-container">
+			<div id="game-upper">
+				<div class="game-stat">
+					<span class="game-text1">Transtopia</span>
+				</div>
+				<div class="game-stat" title="Estrogen">
+					<img src="assets/images/estrogen.png" style="width: 2vw; margin-right: 0.5vw;">
+					<span class="game-text1" id="estrogen-count">0</span>
+				</div>
+				<div class="game-stat" title="Testosterone">
+					<img src="assets/images/testosterone.png" style="width: 1vw; margin-right: 0.5vw;">
+					<span class="game-text1" id="testosterone-count">0</span>
+				</div>
+				<div class="game-stat" title="Population">
+					<img src="assets/images/population.png" style="width: 1vw; margin-right: 0.5vw;">
+					<span class="game-text1" id="population-count">8</span>
+				</div>
+			</div>
+			<div id="game-lower">
+				<canvas id="game-canvas" width="1200" height="900" style="width: 75%" onClick="placeBuilding()"></canvas>
+				<div id="intro-div" onClick="gameStarted=true; canvas.style.display='block'; document.getElementById('intro-div').style.display='none'">
+					<span style="display: block; font-size: 30px; text-align: center; width: 75%; user-select: none;">Earth-Year 2354 CE<br>Space colonizers reach a new exoplanet, the perfect place to start a new colony. The planet has one little secret, though. Anyone who ventures near feels unimaginable levels of dysphoria for their assigned gender at birth, thus causing everyone on the planet to be transgender, a Transtopia :3<br>Click anywhere to continue</span>
+				</div>
+			<div id="game-side">
+				<div class="building-button" onClick="selectBuilding(0)">
+					<img src="assets/images/delete_button.png" width="32" class="building-image">
+					<span class="game-text2">Delete Building</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(100)">
+					<img src="assets/images/2x_button.png" width="32" class="building-image">
+					<span class="game-text2">2x Estrogen</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(1)">
+					<img src="assets/images/buildings/building_1.png" width="32" class="building-image">
+					<span class="game-text2">Basic Housing</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(2)">
+					<img src="assets/images/buildings/building_2.png" width="32" class="building-image">
+					<span class="game-text2">Gender Clinic</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(3)">
+					<img src="assets/images/buildings/building_3.png" width="32" class="building-image">
+					<span class="game-text2">Spacious Housing</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(4)">
+					<img src="assets/images/buildings/building_4.png" width="32" class="building-image">
+					<span class="game-text2">Genderfluid Tank</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(5)">
+					<img src="assets/images/buildings/building_5.png" width="32" class="building-image">
+					<span class="game-text2">Hormone Caf&#233;</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(6)">
+					<img src="assets/images/buildings/building_6.png" width="32" class="building-image">
+					<span class="game-text2">Enby Residences</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(7)">
+					<img src="assets/images/buildings/building_7.png" width="32" class="building-image">
+					<span class="game-text2">Trans Center</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(8)">
+					<img src="assets/images/buildings/building_8.png" width="32" class="building-image">
+					<span class="game-text2">Estrodome</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(9)">
+					<img src="assets/images/buildings/building_9.png" width="32" height="48" class="building-image">
+					<span class="game-text2">Gender Condos</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(10)">
+					<img src="assets/images/buildings/building_10.png" width="32" height="48" class="building-image">
+					<span class="game-text2">Trans-scraper</span>
+				</div>
+				<div class="building-button" onClick="selectBuilding(11)">
+					<img src="assets/images/buildings/building_11.png" width="32" height="48" class="building-image">
+					<span class="game-text2">Estrogen Infinity</span>
+				</div>
+			</div>
+			<div id="building-box">
+				<span class="game-text3" id="building-name">Select a building</span>
+				<span class="game-text2" id="building-description">Description</span>
+			</div>
+		</div>
+		<script src="numberutils.js"></script>
+		<script src="tilemap.js"></script>
+		<script src="buildinginfo.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
