@@ -59,7 +59,7 @@ function gameTick(){
 		eCount.innerHTML=formatNum(estrogen);
 		tCount.innerHTML=formatNum(testosterone);
 		// update population
-		if(maxPopulation-currentPopulation<0.001){
+		if(maxPopulation-currentPopulation<0.1){
 			currentPopulation=maxPopulation;
 		}
 		else {
