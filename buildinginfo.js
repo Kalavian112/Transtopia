@@ -84,7 +84,7 @@ function selectBuilding(id){
 	selectedBuilding=id&0xFF;
 	if(selectedBuilding==100){
 		buildingName.innerHTML='Double Estrogen Production';
-		buildingDesc.innerHTML='Place anywhere to double your estrogen production.<br>Cost: '+formatNum(multiplierCost)+' testosterone<br>Current Multiplier: '+formatNum(multiplierPurchased);
+		buildingDesc.innerHTML='Place anywhere to double your estrogen production.<br>Cost: '+formatNum(multiplierCost)+' testosterone<br>Current Multiplier: '+formatNum(estrogenMultiplier)+'x';
 		return;
 	}
 	buildingName.innerHTML=buildingInfo[id].name;
