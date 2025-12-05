@@ -99,3 +99,9 @@ div {
 .building-image {
 	margin: 1vw;
 }
+@media screen and (max-width: 1200px){
+	#game-container {
+		width: 80vw;
+		height: 60vw;
+	}
+}
